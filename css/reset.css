@@ -17,3 +17,5 @@ table caption {overflow: hidden; width: 1px; height: 1px; margin-top: -1px;}
 i[class^="fa"] {position: relative; display: inline-block; vertical-align: middle;}
 i[class^="fa"] span {position: absolute; left: -9999px;}
 .ir-hidden {position: absolute !important; left: -9999px !important;}
+
+/* 참고 : https://necolas.github.io/normalize.css/8.0.1/normalize.css */
