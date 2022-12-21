@@ -14,7 +14,33 @@ br.only-m::after {content: ' ';}
 
 /* common */
 body {font-family: 'NotoSansKR', sans-serif; font-size: 15px; font-weight: 300; color: #333333; line-height: 1.4; letter-spacing: -0.02em; background-color: #ffffff;}
-#wrapper {min-width: 1000px; overflow: hidden;}
+#wrapper {min-width: 1000px; overflow: hidden; background-color: antiquewhite;}
 #skip-nav {position: fixed; left: 0; top: -40px; width: 100%; line-height: 40px; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: #ffffff; font-size: 16px; transition: top 0.3s; z-index: 100000;}
 #skip-nav:focus {top: 0;}
+
+#header {position: fixed; height: 60px; width: 100%; background-color: gray; z-index: 100000;}
+div.container {max-width: 1200px; height: 100%; margin: 0 auto; background-color: yellow; overflow: hidden;}
+#header h1 {float: left; margin-right: 90px; line-height: 60px;}
+#header div.box {overflow: hidden; height: 100%; background-color: skyblue;}
+
+
+
+div.image-slide {position: relative; width: 1000px; margin: 60px auto; background-color: lightblue;}
+div.image-slide > div.box {position: relative; width: 100%;}
+
+
+
+/* slick - pc */
+.slide .slick-list {}
+.slick-slide {}
+
+.slick-prev{}
+.slick-next{}
+
+.slick-dots {}
+.slick-dots li {}
+.slick-dots li.slick-active button {}
+.slick-dots li button {}
+.slick-dots li :hover {}
+
 

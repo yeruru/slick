@@ -17,3 +17,39 @@ body {font-family: 'NotoSansKR', sans-serif; font-size: 14px; font-weight: 300; 
 #skip-nav {position: fixed; left: 0; top: -41px; width: 100%; text-align: center; line-height: 40px; background-color: rgba(0, 0, 0, 0.6); color: #ffffff; font-size: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.8); transition: top 0.3s; z-index: 100000;}
 #skip-nav:focus {top: 0;}
 
+#header {position: fixed; height: 60px; width: 100%; background-color: gray; z-index: 100000;}
+div.container {min-width: 320px; height: 100%; background-color: yellow; overflow: hidden;}
+#header h1 {float: left; margin-right: 20px; line-height: 60px;}
+#header ul {height: 60px;}
+#header ul > li {line-height: 60px; background-color: pink;}
+
+div.image-slide {position: relative; width: 100%; margin: 80px auto; background-color: lightblue;}
+div.image-slide > div.box {position: relative; width: 100%;}
+
+
+
+
+/* slick - mobile */
+
+.slider .slick-list {
+    margin:0 -20px;
+}
+
+ .slick-slide {
+    margin:0 20px;
+}
+
+.item {
+    height:300px;
+}
+
+button {padding: 0;}
+
+.slick-prev{position: absolute; top: 50%; left: 0; transform: translate(0, -50%); width:30px; height:30px; background:black; z-index: 1;}
+.slick-next{position: absolute; top: 50%; right: 0; transform: translate(0, -50%); width:30px; height:30px; background:red;}
+
+.slick-dots {margin-top:10px; padding: 0; text-align:center;}
+.slick-dots li {display: inline-block; margin-left: 4px; margin-right: 4px;}
+.slick-dots li.slick-active button {background-color: black;}
+.slick-dots li button {width: 10px; height: 10px; background-color: #999; border-radius: 20px; color: transparent; border: none; font: 0;}
+.slick-dots li :hover {background-color: black;}
