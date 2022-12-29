@@ -31,11 +31,11 @@ div.image-slide > div.box {position: relative; width: 100%;}
 
 
 /* slick - pc */
-.slide .slick-list {}
-.slick-slide {}
+.single-item .slick-list {margin: 0 -20px; overflow: hidden;}
+.single-item .slick-slide {margin: 0 20px;}
 
-.slick-prev{}
-.slick-next{}
+.single-item .slick-prev {position: absolute; top: 50%; left: -50px; transform: translate(0, -50%); width: 30px; height: 30px; background-color: black;}
+.slick-next {position: absolute; top: 50%; right: -50px; transform: translate(0, -50%); width: 30px; height: 30px; background-color: black;}
 
 .slick-dots {}
 .slick-dots li {}
